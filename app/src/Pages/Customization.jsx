@@ -222,7 +222,7 @@ const isFirstMount = React.useRef(true);
 
   return (
    <div >
-            <CustomHeroSection heading='Build Your Perfect Match' path='Customization ' custom="customization" bgImage="HomeAssets/HeroSecton/Banner3.png" hideContent={true} />
+            <CustomHeroSection heading='Build Your Perfect Match' path='Customization' custom="customization" bgImage="HomeAssets/HeroSecton/Banner3.png" hideContent={true} />
             <div className="md:py-20 py-10 lg:px-10 px-0 flex">
                 <section className="hidden lg:flex flex flex-col p-5 text-white hscreen lg:w-1/5">
                     <CustomPriceRange onFilter={handleFilter} />
@@ -374,23 +374,6 @@ const isFirstMount = React.useRef(true);
                                 <span>No variants available</span>
                               )}
                             </p>
-                             {/* <div className="flex xl:flex-row lg:flex-col justify-center xl:gap-4 gap-1">
-  <button
-    className="p-2 bg-[#1E7773] w-full font-bazaar cursor-pointer rounded-lg"
-    onClick={() => handleAddCart(product)}
-    disabled={loading || disabledButtons[product.id]}
-  >
-    ADD TO CART
-  </button>
-
-  <button
-    href={`/product/${product.slug}`}
-    className="p-2 border border-[#1E7773] text-center w-full h-fit font-bazaar rounded-lg flex items-center justify-center"
-  >
-    BUY NOW
-  </button>
-</div> */}
-
                           </div>
                         </div>
                       </Link>
